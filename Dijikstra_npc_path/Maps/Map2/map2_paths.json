@@ -1,0 +1,633 @@
+{
+  "nodes": [
+    {
+      "name": "Outside_main",
+      "location": [242,490],
+      "isKey": 1
+    },
+    {
+      "name": "Outside_left",
+      "location": [142,490],
+      "isKey": 1
+    },
+    {
+      "name": "Outside_right",
+      "location": [442,490],
+      "isKey": 1
+    },
+    {
+      "name": "Well2",
+      "location": [320,295],
+      "isKey": 1
+    },
+    {
+      "name": "Church_entr",
+      "location": [135,210],
+      "isKey": 1
+    },
+    {
+      "name": "Stable_entr",
+      "location": [138,140],
+      "isKey": 1
+    },
+    {
+      "name": "Stable_int1",
+      "location": [138,105],
+      "isKey": 1
+    },
+    {
+      "name": "Stable_int2",
+      "location": [115,105],
+      "isKey": 1
+    },
+    {
+      "name": "House1_int1",
+      "location": [120,345],
+      "isKey": 1
+    },
+    {
+      "name": "House1_int2",
+      "location": [120,385],
+      "isKey": 1
+    },
+    {
+      "name": "House1_int3",
+      "location": [85,385],
+      "isKey": 1
+    },
+    {
+      "name": "House2_int1",
+      "location": [340,390],
+      "isKey": 1
+    },
+    {
+      "name": "Garden_int1",
+      "location": [322,175],
+      "isKey": 1
+    },
+    {
+      "name": "Garden_int2",
+      "location": [313,193],
+      "isKey": 1
+    },
+    {
+      "name": "Garden_entr",
+      "location": [322,135],
+      "isKey": 1
+    },
+    {
+      "name": "House2_entr",
+      "location": [340,340],
+      "isKey": 0
+    },
+    {
+      "name": "House1_entr",
+      "location": [160,325],
+      "isKey": 0
+    },
+    {
+      "name": "way_enter1",
+      "location": [233,475],
+      "isKey": 0
+    },
+    {
+      "name": "way_enter2",
+      "location": [253,475],
+      "isKey": 0
+    },
+    {
+      "name": "way_enter3",
+      "location": [233,340],
+      "isKey": 0
+    },
+    {
+      "name": "way_enter4",
+      "location": [253,340],
+      "isKey": 0
+    },
+    {
+      "name": "way_house1_1",
+      "location": [200,325],
+      "isKey": 0
+    },
+    {
+      "name": "way_house2_1",
+      "location": [310,340],
+      "isKey": 0
+    },
+    {
+      "name": "way_central_1",
+      "location": [225,235],
+      "isKey": 0
+    },
+    {
+      "name": "way_central_2",
+      "location": [195,275],
+      "isKey": 0
+    },
+    {
+      "name": "way_central_3",
+      "location": [185,305],
+      "isKey": 0
+    },
+    {
+      "name": "way_central_4",
+      "location": [250,235],
+      "isKey": 0
+    },
+    {
+      "name": "way_central_5",
+      "location": [280,275],
+      "isKey": 0
+    },
+    {
+      "name": "way_central_6",
+      "location": [280,315],
+      "isKey": 0
+    },
+    {
+      "name": "way_church_1",
+      "location": [195,190],
+      "isKey": 0
+    },
+    {
+      "name": "way_church_2",
+      "location": [150,190],
+      "isKey": 0
+    },
+    {
+      "name": "way_stable_1",
+      "location": [130,170],
+      "isKey": 0
+    },
+    {
+      "name": "way_garden_1",
+      "location": [305,135],
+      "isKey": 0
+    },
+    {
+      "name": "way_garden_2",
+      "location": [285,172],
+      "isKey": 0
+    },
+    {
+      "name": "way_garden_3",
+      "location": [255,177],
+      "isKey": 0
+    },
+    {
+      "name": "way_garden_4",
+      "location": [285,222],
+      "isKey": 0
+    }
+  ],
+  "paths": [
+    {
+    "start": "Garden_entr",
+    "end": "Garden_int1",
+    "weight": 1
+    },
+    {
+    "start": "Garden_int1",
+    "end": "Garden_entr",
+    "weight": 1
+    },
+    {
+    "start": "Garden_int1",
+    "end": "Garden_int2",
+    "weight": 1
+    },
+    {
+    "start": "Garden_int2",
+    "end": "Garden_int1",
+    "weight": 1
+    },
+    {
+    "start": "way_house2_1",
+    "end": "Well2",
+    "weight": 1
+    },
+    {
+    "start": "Well2",
+    "end": "way_house2_1",
+    "weight": 1
+    },
+    {
+    "start": "way_central_5",
+    "end": "Well2",
+    "weight": 1
+    },
+    {
+    "start": "Well2",
+    "end": "way_central_5",
+    "weight": 1
+    },
+    {
+    "start": "way_central_6",
+    "end": "Well2",
+    "weight": 1
+    },
+    {
+    "start": "Well2",
+    "end": "way_central_6",
+    "weight": 1
+    },
+    {
+    "start": "House1_entr",
+    "end": "House1_int1",
+    "weight": 1
+    },
+    {
+    "start": "House1_int1",
+    "end": "House1_int2",
+    "weight": 1
+    },
+    {
+    "start": "House1_int1",
+    "end": "House1_entr",
+    "weight": 1
+    },
+    {
+    "start": "House1_int2",
+    "end": "House1_int1",
+    "weight": 1
+    },
+    {
+    "start": "House1_int2",
+    "end": "House1_int3",
+    "weight": 1
+    },
+    {
+    "start": "House1_int3",
+    "end": "House1_int2",
+    "weight": 1
+    },
+    {
+    "start": "way_house1_1",
+    "end": "House1_entr",
+    "weight": 1
+    },
+    {
+    "start": "House1_entr",
+    "end": "way_house1_1",
+    "weight": 1
+    },
+    {
+    "start": "House2_entr",
+    "end": "House2_int1",
+    "weight": 1
+    },
+    {
+    "start": "House2_int1",
+    "end": "House2_entr",
+    "weight": 1
+    },
+    {
+    "start": "way_house2_1",
+    "end": "House2_entr",
+    "weight": 1
+    },
+    {
+    "start": "House2_entr",
+    "end": "way_house2_1",
+    "weight": 1
+    },
+    {
+    "start": "Outside_main",
+    "end": "way_enter2",
+    "weight": 1
+    },
+    {
+    "start": "way_enter2",
+    "end": "way_enter4",
+    "weight": 1
+    },
+    {
+    "start": "way_enter4",
+    "end": "way_enter3",
+    "weight": 1
+    },
+    {
+    "start": "way_enter3",
+    "end": "way_enter4",
+    "weight": 1
+    },
+    {
+    "start": "way_enter3",
+    "end": "way_enter1",
+    "weight": 1
+    },
+    {
+    "start": "way_enter1",
+    "end": "Outside_main",
+    "weight": 1
+    },
+    {
+    "start": "way_house1_1",
+    "end": "way_enter3",
+    "weight": 1
+    },
+    {
+    "start": "way_enter3",
+    "end": "way_house1_1",
+    "weight": 1
+    },
+    {
+    "start": "way_house2_1",
+    "end": "way_enter3",
+    "weight": 1
+    },
+    {
+    "start": "way_enter3",
+    "end": "way_house2_1",
+    "weight": 1
+    },
+    {
+    "start": "Outside_main",
+    "end": "Outside_left",
+    "weight": 1
+    },
+    {
+    "start": "Outside_left",
+    "end": "Outside_main",
+    "weight": 1
+    },
+    {
+    "start": "Outside_main",
+    "end": "Outside_right",
+    "weight": 1
+    },
+    {
+    "start": "Outside_right",
+    "end": "Outside_main",
+    "weight": 1
+    },
+    {
+    "start": "way_central_1",
+    "end": "way_central_2",
+    "weight": 1
+    },
+    {
+    "start": "way_central_2",
+    "end": "way_central_1",
+    "weight": 1
+    },
+    {
+    "start": "way_central_2",
+    "end": "way_house1_1",
+    "weight": 1
+    },
+    {
+    "start": "way_central_2",
+    "end": "way_central_3",
+    "weight": 1
+    },
+    {
+    "start": "way_central_3",
+    "end": "way_central_2",
+    "weight": 1
+    },
+    {
+    "start": "House1_entr",
+    "end": "way_central_3",
+    "weight": 1
+    },
+    {
+    "start": "way_central_3",
+    "end": "House1_entr",
+    "weight": 1
+    },
+    {
+    "start": "way_central_1",
+    "end": "way_central_4",
+    "weight": 1
+    },
+    {
+    "start": "way_central_4",
+    "end": "way_central_1",
+    "weight": 1
+    },
+    {
+    "start": "way_central_5",
+    "end": "way_central_4",
+    "weight": 1
+    },
+    {
+    "start": "way_central_4",
+    "end": "way_central_5",
+    "weight": 1
+    },
+    {
+    "start": "way_central_5",
+    "end": "way_central_6",
+    "weight": 1
+    },
+    {
+    "start": "way_central_6",
+    "end": "way_central_5",
+    "weight": 1
+    },
+    {
+    "start": "way_garden_4",
+    "end": "way_central_4",
+    "weight": 1
+    },
+    {
+    "start": "way_central_4",
+    "end": "way_garden_4",
+    "weight": 1
+    },
+    {
+    "start": "way_garden_4",
+    "end": "way_central_5",
+    "weight": 1
+    },
+    {
+    "start": "way_central_5",
+    "end": "way_garden_4",
+    "weight": 1
+    },
+    {
+    "start": "way_garden_3",
+    "end": "way_central_1",
+    "weight": 1
+    },
+    {
+    "start": "way_central_1",
+    "end": "way_garden_3",
+    "weight": 1
+    },
+    {
+    "start": "way_enter4",
+    "end": "way_central_6",
+    "weight": 1
+    },
+    {
+    "start": "way_central_6",
+    "end": "way_enter4",
+    "weight": 1
+    },
+    {
+    "start": "way_house1_1",
+    "end": "way_central_6",
+    "weight": 1
+    },
+    {
+    "start": "way_central_6",
+    "end": "way_house1_1",
+    "weight": 1
+    },
+    {
+    "start": "way_house2_1",
+    "end": "way_central_6",
+    "weight": 1
+    },
+    {
+    "start": "way_central_6",
+    "end": "way_house2_1",
+    "weight": 1
+    },
+    {
+    "start": "way_church_1",
+    "end": "way_central_2",
+    "weight": 1
+    },
+    {
+    "start": "way_central_2",
+    "end": "way_church_1",
+    "weight": 1
+    },
+    {
+    "start": "way_church_1",
+    "end": "way_church_2",
+    "weight": 1
+    },
+    {
+    "start": "way_church_2",
+    "end": "way_church_1",
+    "weight": 1
+    },
+    {
+    "start": "Church_entr",
+    "end": "way_church_2",
+    "weight": 1
+    },
+    {
+    "start": "way_church_2",
+    "end": "Church_entr",
+    "weight": 1
+    },
+    {
+    "start": "Church_entr",
+    "end": "way_stable_1",
+    "weight": 1
+    },
+    {
+    "start": "way_stable_1",
+    "end": "Church_entr",
+    "weight": 1
+    },
+    {
+    "start": "way_church_1",
+    "end": "way_central_4",
+    "weight": 1
+    },
+    {
+    "start": "way_central_4",
+    "end": "way_church_1",
+    "weight": 1
+    },
+    {
+    "start": "way_church_1",
+    "end": "way_garden_3",
+    "weight": 1
+    },
+    {
+    "start": "way_garden_3",
+    "end": "way_church_1",
+    "weight": 1
+    },
+    {
+    "start": "Stable_entr",
+    "end": "Stable_int1",
+    "weight": 1
+    },
+    {
+    "start": "Stable_int1",
+    "end": "Stable_entr",
+    "weight": 1
+    },
+    {
+    "start": "Stable_int1",
+    "end": "Stable_int2",
+    "weight": 1
+    },
+    {
+    "start": "Stable_int2",
+    "end": "Stable_int1",
+    "weight": 1
+    },
+    {
+    "start": "Stable_entr",
+    "end": "way_stable_1",
+    "weight": 1
+    },
+    {
+    "start": "way_stable_1",
+    "end": "Stable_entr",
+    "weight": 1
+    },
+    {
+    "start": "way_church_2",
+    "end": "way_stable_1",
+    "weight": 1
+    },
+    {
+    "start": "way_stable_1",
+    "end": "way_church_2",
+    "weight": 1
+    },
+    {
+    "start": "Garden_entr",
+    "end": "way_garden_1",
+    "weight": 1
+    },
+    {
+    "start": "way_garden_1",
+    "end": "Garden_entr",
+    "weight": 1
+    },
+    {
+    "start": "way_garden_1",
+    "end": "way_garden_2",
+    "weight": 1
+    },
+    {
+    "start": "way_garden_2",
+    "end": "way_garden_1",
+    "weight": 1
+    },
+    {
+    "start": "way_garden_2",
+    "end": "way_garden_3",
+    "weight": 1
+    },
+    {
+    "start": "way_garden_3",
+    "end": "way_garden_2",
+    "weight": 1
+    },
+    {
+    "start": "way_garden_4",
+    "end": "way_garden_2",
+    "weight": 1
+    },
+    {
+    "start": "way_garden_2",
+    "end": "way_garden_4",
+    "weight": 1
+    }
+  ]
+}
+
+
